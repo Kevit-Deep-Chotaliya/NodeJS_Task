@@ -16,7 +16,7 @@
 1. Generate a bcrypt password hash:
    `node -e "require('bcrypt').hash('Admin@123', 12).then(console.log)"`
 2. Open MongoDB Compass and connect to the local database.
-3. Create database `mean_nodejs_challenge`.
+3. Create database `NodeJS_Assessment`.
 4. Create collection `users`.
 5. Insert a document with `name`, `email`, the generated
    bcrypt `password` hash, and `role: "admin"`.
